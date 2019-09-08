@@ -14,7 +14,7 @@ const ContactForm = ({
 	touched,
 }) => (
 	<Form
-		name="portfolio-dev"
+		name="liv-kontakt"
 		method="post"
 		data-netlify="true"
 		data-netlify-recaptcha="true"
@@ -121,7 +121,7 @@ export default withFormik({
 				method: 'POST',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: encode({
-					'form-name': 'portfolio-dev',
+					'form-name': 'liv-kontakt',
 					name,
 					email,
 					message,
