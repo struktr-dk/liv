@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const Textarea = styled.textarea`
 	width: 94%;
+	@media (max-width: 680px) {
+		max-width: 88%;
+	}
 
 	border: 2px solid #455a64;
 	padding: 0.8rem 1rem;
