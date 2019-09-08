@@ -73,10 +73,7 @@ const ContactForm = ({
 		{values.success && (
 			<InputField>
 				<Center>
-					<h4>
-						Your message has been successfully sent, I will get back to you
-						ASAP!
-					</h4>
+					<h4>Tak for din besked. Vi vender hurtigt tilbage!</h4>
 				</Center>
 			</InputField>
 		)}
@@ -130,11 +127,11 @@ export default withFormik({
 			})
 			await setSubmitting(false)
 			await setFieldValue('success', true)
-			setTimeout(() => resetForm(), 2000)
+			setTimeout(() => resetForm(), 8000)
 		} catch (err) {
 			setSubmitting(false)
 			setFieldValue('success', false)
-			alert('Something went wrong, please try again!') // eslint-disable-line
+			alert('Ups! Noget gik galt, prøv igen!') // eslint-disable-line
 		}
 	},
 })(ContactForm)
