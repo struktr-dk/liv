@@ -2,7 +2,7 @@ import React from 'react'
 import { Form, withFormik, FastField, ErrorMessage } from 'formik'
 import Recaptcha from 'react-google-recaptcha'
 import * as Yup from 'yup'
-import { Button, Input } from 'Common'
+import { Button, Input, Textarea } from 'Common'
 import { recaptcha_key } from 'Data'
 import { Error, Center, InputField } from './styles'
 
@@ -46,11 +46,11 @@ const ContactForm = ({
 			<ErrorMessage component={Error} name="email" />
 		</InputField>
 		<InputField>
-			<Input
+			<Textarea
 				as={FastField}
-				component="textarea"
 				aria-label="message"
 				id="message"
+				component="textarea"
 				rows="8"
 				type="text"
 				name="message"
