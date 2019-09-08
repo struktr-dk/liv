@@ -82,7 +82,7 @@ const ContactForm = ({
 		)}
 		<Center>
 			<Button secondary type="submit" disabled={isSubmitting}>
-				Submit
+				Send
 			</Button>
 		</Center>
 	</Form>
@@ -98,12 +98,12 @@ export default withFormik({
 	}),
 	validationSchema: () =>
 		Yup.object().shape({
-			name: Yup.string().required('Full name field is required'),
+			name: Yup.string().required('Full navn er nødvendigt'),
 			email: Yup.string()
-				.email('Invalid email')
-				.required('Email field is required'),
-			message: Yup.string().required('Message field is required'),
-			recaptcha: Yup.string().required('Robots are not welcome yet!'),
+				.email('Forkert email')
+				.required('Email er nødvendigt'),
+			message: Yup.string().required('Besked er nødvendigt'),
+			recaptcha: Yup.string().required('Robots er ikke velkommen endu!'),
 		}),
 	handleSubmit: async (
 		{ name, email, message, recaptcha },

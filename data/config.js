@@ -1,21 +1,17 @@
 module.exports = {
-	defaultTitle: 'John Doe',
+	defaultTitle: 'Liv Kommunikation',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-	author: 'John Doe',
+	author: 'Liv Kommunikation',
 	url: 'https://portfolio.smakosh.com',
-	legalName: 'John Doe',
-	defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+	legalName: 'Liv Kommunikation',
+	defaultDescription:
+		'LIV Kommunikation skaber synlighed for bæredygtige virksomheder og organisationer.',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/smakosh',
-		github: 'https://github.com/smakosh',
 		linkedin: 'https://www.linkedin.com/in/ismail-ghallou-630149122/',
-		instagram: 'https://instagram.com/smakosh19',
-		youtube: 'https://www.youtube.com/user/smakoshthegamer',
-		google: 'https://plus.google.com/u/0/+IsmailSmakoshGhallou',
 	},
-	googleAnalyticsID: 'UA-88875900-4',
-	themeColor: '#6b63ff',
-	backgroundColor: '#6b63ff',
+	googleAnalyticsID: '',
+	themeColor: '#8BC34A',
+	backgroundColor: '#8BC34A',
 	social: {
 		facebook: 'appId',
 		twitter: '@smakosh',
@@ -30,6 +26,6 @@ module.exports = {
 		email: 'email',
 		phone: 'phone number',
 	},
-	foundingDate: '2018',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
+	foundingDate: '2019',
+	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
 }

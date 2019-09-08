@@ -2,17 +2,23 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 	padding-bottom: 4rem;
-	background-image: url('../illustrations/overlay.svg');
+	background-image: url('../images/liv-bg.jpg');
 	background-size: contain;
 	background-position: right top;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-blend-mode: multiply;
 `
 
 export const IntroWrapper = styled.div`
-	padding: 4rem 0;
+	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	min-height: calc(100vh - 130px);
 
 	@media (max-width: 960px) {
 		flex-direction: column;
@@ -30,7 +36,7 @@ export const Details = styled.div`
 	h1 {
 		margin-bottom: 2rem;
 		font-size: 36pt;
-		color: #212121;
+		color: white;
 
 		@media (max-width: 680px) {
 			font-size: 30pt;
@@ -39,13 +45,23 @@ export const Details = styled.div`
 
 	h4 {
 		margin-bottom: 2.5rem;
-		font-size: 32pt;
+		font-size: 24pt;
 		font-weight: normal;
-		color: #707070;
+		line-height: 1.2;
+		color: white;
+		max-width: 50%;
 
 		@media (max-width: 680px) {
-			font-size: 26pt;
+			font-size: 16pt;
 		}
+	}
+
+	p {
+		margin-top: 12pt;
+		padding: 10pt 0;
+		font-size: 16pt;
+		color: white;
+		max-width: 50%;
 	}
 `
 
