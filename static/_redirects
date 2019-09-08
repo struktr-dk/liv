@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://livkommunikation.netlify.com/* https://livkommunikation.dk/:splat 301!
+# https://livkommunikation.netlify.com/* https://livkommunikation.dk/:splat 301!
