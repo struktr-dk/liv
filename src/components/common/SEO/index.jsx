@@ -4,7 +4,6 @@ import Thumbnail from 'Static/thumbnail/thumbnail.png'
 import {
 	url,
 	defaultDescription,
-	social,
 	defaultTitle,
 	socialLinks,
 	address,
@@ -19,7 +18,7 @@ export const SEO = ({
 	description = defaultDescription,
 	location = '',
 }) => {
-	const structuredDataOrganization = `{ 
+	const structuredDataOrganization = `{
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"legalName": "${legalName}",
@@ -43,14 +42,6 @@ export const SEO = ({
 			"addressCountry": "${address.country}",
 			"postalCode": "${address.zipCode}"
 		},
-		"sameAs": [
-			"${socialLinks.twitter}",
-			"${socialLinks.google}",
-			"${socialLinks.youtube}",
-			"${socialLinks.linkedin}",
-			"${socialLinks.instagram}",
-			"${socialLinks.github}"
-		]
   	}`
 
 	return (
@@ -63,14 +54,7 @@ export const SEO = ({
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:image" content={Thumbnail} />
-			<meta property="fb:app_id" content={social.facebook} />
 
-			<meta name="twitter:card" content="summary" />
-			<meta name="twitter:creator" content={socialLinks.twitter} />
-			<meta name="twitter:site" content={social.twitter} />
-			<meta name="twitter:title" content={title} />
-			<meta name="twitter:description" content={description} />
-			<meta name="twitter:image:src" content={Thumbnail} />
 			<script type="application/ld+json">{structuredDataOrganization}</script>
 			<link rel="publisher" href={socialLinks.google} />
 			<title>{title}</title>
