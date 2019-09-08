@@ -1,8 +1,9 @@
 # Portfolio for developers
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7cb1124f-9a39-4315-94f0-9afd06c3c6d0/deploy-status)](https://app.netlify.com/sites/livkommunikation/deploys)
 
 ## Theme
+
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
 
 ## Features
