@@ -7,7 +7,7 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>Liv Kommunikation</h2>
+				<h2>LIV Kommunikation</h2>
 				<span>
 					© All rights are reserved | {new Date().getFullYear()} |{' '}
 					<a
