@@ -52,16 +52,21 @@ export const Details = styled.div`
 		max-width: 50%;
 
 		@media (max-width: 680px) {
-			font-size: 16pt;
+			font-size: 14pt;
+			max-width: 100%;
 		}
 	}
 
 	p {
 		margin-top: 12pt;
-		padding: 10pt 0;
+		margin-bottom: 48pt;
 		font-size: 16pt;
 		color: white;
 		max-width: 50%;
+		@media (max-width: 680px) {
+			font-size: 12pt;
+			max-width: 100%;
+		}
 	}
 `
 
