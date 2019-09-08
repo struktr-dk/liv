@@ -9,7 +9,7 @@ module.exports = {
 	socialLinks: {
 		linkedin: 'https://www.linkedin.com/in/sofiehviid/',
 	},
-	googleAnalyticsID: '',
+	googleAnalyticsID: 'VRZv3IhuRF-DAbHsWvLsVQ',
 	themeColor: '#8BC34A',
 	backgroundColor: '#8BC34A',
 	address: {
@@ -23,5 +23,5 @@ module.exports = {
 		phone: 'phone number',
 	},
 	foundingDate: '2019',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+	recaptcha_key: '6Le3TbcUAAAAAPoH_193_ZdbmRgYPpE8IAvSbTTu',
 }
