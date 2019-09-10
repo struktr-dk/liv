@@ -2,7 +2,7 @@ module.exports = {
 	defaultTitle: 'LIV Kommunikation',
 	logo: '',
 	author: 'LIV Kommunikation',
-	url: 'https://portfolio.smakosh.com',
+	url: 'https://livkommunikation.dk',
 	legalName: 'Liv Kommunikation',
 	defaultDescription:
 		'LIV Kommunikation skaber synlighed for bæredygtige virksomheder og organisationer.',
