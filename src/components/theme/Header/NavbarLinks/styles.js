@@ -22,12 +22,12 @@ export const Wrapper = styled.div`
 			}
 		`
 			: `
-			padding: 3rem;
+			padding: 5rem 3rem;
 			display: flex;
 			flex-direction: column;
 
 			a {
-					margin-bottom: 1rem;
+					margin-bottom: 2rem;
 
 					&:last-child {
 							margin-bottom: unset;
