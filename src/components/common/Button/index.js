@@ -14,7 +14,6 @@ export const Button = styled.button`
 	user-select: none;
 	color: white;
 	background: #222;
-	text-transform: capitalize;
 
 	&:focus {
 		outline: none;
